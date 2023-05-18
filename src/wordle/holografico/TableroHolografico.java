@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package wordle.holografico;
-
 import wordle.interfaces.ITablero;
 
 /**
@@ -14,7 +13,7 @@ public class TableroHolografico implements ITablero {
 
     @Override
     public void despliegaIntento(String palabra) {
-        System.out.println("Despliegue Holografico de "+palabra);
+        System.out.println("Palabra: " + palabra);
     }
     
 }

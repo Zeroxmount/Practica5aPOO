@@ -15,8 +15,12 @@ public class TecladoConsola implements ITeclado {
     @Override
     public String getIntento() {
        Scanner in = new Scanner(System.in);
+       String intento;
+       do{
        System.out.print("Palabra: ");
-       return in.nextLine();
+       intento=in.nextLine();
+       }while(intento.length()!=5);
+       return intento;
     }
     
 }
